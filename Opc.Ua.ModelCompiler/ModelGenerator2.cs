@@ -918,7 +918,7 @@ namespace ModelCompiler
                     new LoadTemplateEventHandler(LoadTemplate_XmlType),
                     new WriteTemplateEventHandler(WriteTemplate_XmlType));
 
-                template.WriteTemplate(null);
+                //template.WriteTemplate(null);
             }
             finally
             {
